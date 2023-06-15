@@ -1,0 +1,7 @@
+{
+    "name": "Harvest CLI",
+    "version": "1.0.0",
+    "bin": {
+        "harvest": "./bin/run"
+    }
+}

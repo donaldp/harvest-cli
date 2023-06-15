@@ -1,0 +1,13 @@
+#!/usr/bin/env node
+const { Application } = require('@formidablejs/console')
+const { loader } = require('@formidablejs/cli-loader')
+const path = require('path')
+
+const project = path.join(__dirname, '..', 'tsconfig.json')
+
+require('ts-node').register({project})
+
+loader(Application, {
+    development: true,
+    root: path.join(__dirname, '..')
+}).run()

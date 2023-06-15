@@ -1,0 +1,6 @@
+#!/usr/bin/env node
+const { Application } = require('@formidablejs/console')
+const { loader } = require('@formidablejs/cli-loader')
+const path = require('path')
+
+loader(Application, { root: path.join(__dirname, '..') }).run()
