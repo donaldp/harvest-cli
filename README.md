@@ -66,7 +66,7 @@ The `--project` flag is optional and defaults to the default project.
     - [x] `harvest login`
     - [x] `harvest logout`
     - [x] `harvest status`
-    - [x] `harvest auto:run`
+    - [ ] `harvest auto:run`
     - [x] `harvest list:accounts`
     - [x] `harvest list:projects`
     - [x] `harvest list:tasks`
