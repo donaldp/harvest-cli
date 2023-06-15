@@ -5,7 +5,6 @@ Harvest CLI is a command line interface for logging time to Harvest
 ## Installation
 
 ```bash
-# clone the repo
 git clone https://github.com/donaldp/harvest-cli.git
 cd harvest-cli
 npm install
@@ -46,7 +45,7 @@ Command | Description
 `harvest report:week` | Get a report for the week
 `harvest report:month` | Get a report for the month
 
-## Auto time logger
+## Auto time logger (coming soon)
 
 To automatically log time, run the following command:
 
@@ -67,7 +66,7 @@ The `--project` flag is optional and defaults to the default project.
     - [x] `harvest login`
     - [x] `harvest logout`
     - [x] `harvest status`
-    - [-] `harvest auto:run`
+    - [x] `harvest auto:run`
     - [x] `harvest list:accounts`
     - [x] `harvest list:projects`
     - [x] `harvest list:tasks`
